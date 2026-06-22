@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Primary */
+.primary{
+    background-color: blue;
+    color: white;
+}
+
+/* Secondary */
+.secondary{
+    background-color: gray;
+    color: white;
+}
+
+/* Success */
+.success{
+    background-color: green;
+    color: white;
+}
+
+/* Danger */
+.danger{
+    background-color: red;
+    color: white;
+}
+
+/* Warning */
+.warning{
+    background-color: orange;
+    color: black;
+}
+
+/* Outline */
+.outline{
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+/* Login */
+.login{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Download */
+.download{
+    background-color: teal;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+/* Rounded */
+.rounded{
+    background-color: hotpink;
+    color: white;
+    border-radius: 25px;
+}
+
+/* Animated Hover */
+.animated{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.animated:hover{
+    background-color: limegreen;
+    transform: scale(1.1);
+}

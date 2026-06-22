@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(to right, blue, purple);
+}
+
+.box{
+    text-align:center;
+    color:white;
+    margin-top:200px;
+}
+
