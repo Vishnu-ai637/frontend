@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.team{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.team h1{
+    margin-bottom:30px;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center; /* Horizontal alignment */
+    align-items:center;     /* Vertical alignment */
+    gap:20px;               /* Space between cards */
+    flex-wrap:wrap;         /* Move to next line on small screens */
+}
+
+.member{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.member img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+
+.member h3{
+    margin-top:15px;
+}
+
+.member p{
+    color:gray;
+    margin:10px 0;
+}
+
+.social{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    font-size:22px;
+    color:#0077b5;
+}

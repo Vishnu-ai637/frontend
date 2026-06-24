@@ -1,0 +1,89 @@
+body{
+    text-align:center;
+}
+
+/* Animated Button */
+.btn{
+    background:blue;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    transition:0.5s;
+}
+
+.btn:hover{
+    background:green;
+    transform:scale(1.1);
+}
+
+/* Spinner */
+.spinner{
+    width:80px;
+    height:80px;
+    border:8px solid lightgray;
+    border-top:8px solid blue;
+    border-radius:50%;
+    margin:auto;
+
+    animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+/* Rotating Card */
+.card{
+    width:200px;
+    height:120px;
+    background:orange;
+    color:white;
+    line-height:120px;
+    margin:auto;
+
+    animation:rotateCard 3s linear infinite;
+}
+
+@keyframes rotateCard{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+/* Bouncing Ball */
+.ball{
+    width:60px;
+    height:60px;
+    background:red;
+    border-radius:50%;
+    margin:auto;
+
+    animation:bounce 1s infinite alternate;
+}
+
+@keyframes bounce{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(150px);
+    }
+}
+
+/* Image Zoom */
+.image{
+    width:300px;
+    transition:0.5s;
+}
+
+.image:hover{
+    transform:scale(1.2);
+}

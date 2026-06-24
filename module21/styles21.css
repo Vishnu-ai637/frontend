@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Navbar */
+
+nav{
+    background:#071d49;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+nav button{
+    background:#ffc107;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+    background:#071d49;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:80px;
+}
+
+.left{
+    width:45%;
+}
+
+.left h1{
+    font-size:55px;
+}
+
+.left span{
+    color:#ffc107;
+}
+
+.left p{
+    margin:20px 0;
+    line-height:30px;
+}
+
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.apply{
+    background:#ffc107;
+    padding:15px 25px;
+    border:none;
+    border-radius:10px;
+}
+
+.watch{
+    background:transparent;
+    color:white;
+    border:1px solid white;
+    padding:15px 25px;
+    border-radius:10px;
+}
+
+.right{
+    position: relative;
+}
+
+.right img{
+    width:400px;
+    height:300px;
+    border-radius:20px;
+}
+
+/* Top left card */
+.rating{
+    position:absolute;
+    top:15px;
+    left:-60px;
+    background:white;
+    padding:12px 20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    color:black;
+    font-size:14px;
+}
+
+.rating span{
+    color:gray;
+    font-size:12px;
+}
+
+/* Bottom right card */
+.placed{
+    position:absolute;
+    bottom:30px;
+    right:-60px;
+    background:white;
+    padding:15px 25px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+    color:black;
+}
+
+.placed h2{
+    color:#071d49;
+    margin-top:5px;
+}
+
+
+/* Features */
+
+.features{
+    width:80%;
+    margin:auto;
+    margin-top:-40px;
+    background:white;
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px gray;
+}
+
+.box{
+    width:20%;
+}
+
+/* Courses */
+
+.courses{
+    padding:80px;
+    text-align:center;
+}
+
+.course-container{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.course-card{
+    background:white;
+    width:250px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.course-card h3{
+    margin-bottom:20px;
+}
+
+.course-card p{
+    margin-bottom:20px;
+}
+
+.course-card button{
+    background:royalblue;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+/* Statistics */
+
+.stats{
+    background:#071d49;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    padding:40px;
+}
